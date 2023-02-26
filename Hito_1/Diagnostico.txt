@@ -1,0 +1,64 @@
+public class Diagnostico
+	{
+		public void Ejemplo(int valor)
+		{
+			Console.WriteLine("Bienvenido  a la materia de estructura de datos");
+		}
+		public void Ejemplo2(int valor)
+		{
+			int num1,num2,num3;
+			num1 = 3;
+			num2 = 6;
+			num3 = 8;
+			int resp = num1 + num2 +num3;
+			Console.WriteLine("Resp: "+resp);
+		}
+		public void Ejemplo3(int valor)
+		{
+			
+			int num1,num2,num3;
+			num1 = int.Parse(Console.ReadLine());
+			num2 = int.Parse(Console.ReadLine());
+			num3 = int.Parse(Console.ReadLine());
+			
+			int resp = num1 + num2 +num3;
+			Console.WriteLine("Resp: "+resp);
+		}
+		public void Ejemplo4(int valor)
+		{
+			int num;
+			num =0;
+			while(num < 15)
+			{
+				num++;
+				Console.WriteLine(""+ num);
+			}
+		}
+		public void Ejemplo5(int valor)
+		{
+			int numero;
+		
+			numero = int.Parse(Console.ReadLine());
+		
+		int contador =0;
+		if (numero % 2 == 0)
+		{
+			while (contador < numero)
+			{
+				contador +=2;
+				Console.WriteLine(""+ contador);
+			}
+		}
+		else 
+		{
+			
+			contador -=1;
+			while (contador +1 < numero)
+			{
+				
+				contador +=2;
+				Console.WriteLine(""+ contador);
+			}
+		}
+		}
+	}
